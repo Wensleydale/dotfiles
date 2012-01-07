@@ -48,3 +48,6 @@ set showcmd
 
 "Highlight all search pattern matches
 set hlsearch
+
+"Highlight the 80th text column:
+set colorcolumn=80
