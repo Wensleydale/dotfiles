@@ -6,21 +6,25 @@ alias mv='mv -i'
 alias ..='cd ..'
 alias l='ls -F'
 alias la='ls -FA'
+alias ll='ls -Fl'
 
 # http://stackoverflow.com/questions/4332478/read-the-current-text-color-in-a-xterm/4332530#4332530
 BLACK=$(tput setaf 0)
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
 YELLOW=$(tput setaf 3)
-LIME_YELLOW=$(tput setaf 190)
-POWDER_BLUE=$(tput setaf 153)
 BLUE=$(tput setaf 4)
 MAGENTA=$(tput setaf 5)
 CYAN=$(tput setaf 6)
 WHITE=$(tput setaf 7)
+LIME_YELLOW=$(tput setaf 190)
+POWDER_BLUE=$(tput setaf 153)
 BRIGHT=$(tput bold)
 NORMAL=$(tput sgr0)
 BLINK=$(tput blink)
 REVERSE=$(tput smso)
 UNDERLINE=$(tput smul)
 # echo "${RED}this is red ${NORMAL}this is normal"
+
+# Fix long lines gobbling the prompt with \[ and \]
+PS1='\n${BRIGHT}${MAGENTA}\u${NORMAL} ${MAGENTA}\w${NORMAL}\n\[${BRIGHT}${MAGENTA}\]\$\[${NORMAL}\] '
