@@ -45,3 +45,6 @@ set shiftwidth=4
 
 "Display each keystroke in the status line
 set showcmd
+
+"Highlight all search pattern matches
+set hlsearch

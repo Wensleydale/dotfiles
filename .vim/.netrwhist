@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/usr/share/vim/vim72/colors'
 let g:netrw_dirhist_2='/root'
 let g:netrw_dirhist_3='/nfs'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/'
 let g:netrw_dirhist_5='/nfs'
 let g:netrw_dirhist_6='/mnt/nfs'
 let g:netrw_dirhist_7='/data/backups/mysql'
+let g:netrw_dirhist_8='/opt/autojump'
