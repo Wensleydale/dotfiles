@@ -51,3 +51,9 @@ set hlsearch
 
 "Highlight the 80th text column:
 set colorcolumn=80
+
+"Delete single characters without updating the default register
+noremap x "_x
+
+"Paste in visual mode without updating the default register
+vnoremap p "_dP
