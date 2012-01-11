@@ -57,3 +57,6 @@ noremap x "_x
 
 "Paste in visual mode without updating the default register
 vnoremap p "_dP
+
+"Disable vi-compatible backspace behavior
+set backspace=indent,eol,start 
