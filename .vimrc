@@ -1,5 +1,7 @@
 "Use Pathogen to manage plugins
 call pathogen#infect()  
+
+"Turn this off for now, it messes with copying into PuTTY
 "filetype plugin indent on
 
 "Turn on syntax highlighting
