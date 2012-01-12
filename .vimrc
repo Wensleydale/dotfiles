@@ -71,3 +71,6 @@ set nocompatible
 
 "Default character encoding
 set encoding=utf-8
+
+"Enable 256-color mode
+set t_Co=256
