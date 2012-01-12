@@ -36,11 +36,9 @@ nmap l <NOP>
 
 "Always uses spaces instead of tab characters
 set expandtab
-
 "Size of a hard tabstop
 set tabstop=4
-
-"Size of an Indent
+"Size of an indent
 set shiftwidth=4
 
 "Display each keystroke in the status line
@@ -48,15 +46,25 @@ set showcmd
 
 "Highlight all search pattern matches
 set hlsearch
+"Incremental search
+set incsearch
+
+"Searches ignore case unless the contain at least one capital letter
+set ignorecase
+set smartcase
 
 "Highlight the 80th text column:
 set colorcolumn=80
 
 "Delete single characters without updating the default register
 noremap x "_x
-
 "Paste in visual mode without updating the default register
 vnoremap p "_dP
 
 "Disable vi-compatible backspace behavior
 set backspace=indent,eol,start 
+"Disable vi compatibility (may be redundant with above)
+set nocompatible
+
+"Default character encoding
+set encoding=utf-8
