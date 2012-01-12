@@ -44,6 +44,9 @@ set shiftwidth=4
 "Display each keystroke in the status line
 set showcmd
 
+"Always show the status line
+set laststatus=2
+
 "Highlight all search pattern matches
 set hlsearch
 "Incremental search
