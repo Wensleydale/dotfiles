@@ -76,3 +76,9 @@ set encoding=utf-8
 
 "Enable 256-color mode
 set t_Co=256
+
+"Map capital W and Q to lowercase in command mode
+command WQ wq
+command Wq wq
+command W w
+command Q q
