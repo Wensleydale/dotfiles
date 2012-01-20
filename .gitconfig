@@ -3,3 +3,5 @@
     email = ben.striegel@gmail.com
 [color]
 	ui = true
+[core]
+	editor = /usr/bin/vim
