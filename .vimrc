@@ -103,3 +103,6 @@ augroup resCur
   autocmd!
   autocmd BufWinEnter * call ResCur()
 augroup END
+
+"Remap default easymotion leader from \\ to \
+let g:EasyMotion_leader_key = '\'
