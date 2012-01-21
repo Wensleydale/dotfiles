@@ -105,4 +105,10 @@ augroup resCur
 augroup END
 
 "Remap default easymotion leader from \\ to \
-let g:EasyMotion_leader_key = '\'
+let g:EasyMotion_leader_key = '<Leader>'
+
+"Jump five lines when scrolling at edge of screen
+set scrolljump=5
+
+"Cause screen to scroll when within three lines of the edge
+set scrolloff=3
