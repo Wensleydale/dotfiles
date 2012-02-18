@@ -27,7 +27,7 @@ UNDERLINE=$(tput smul)
 # echo "${RED}this is red ${NORMAL}this is normal"
 
 # Fix long lines gobbling the prompt with \[ and \]
-PS1='\n${BRIGHT}${MAGENTA}\u@\h \w${NORMAL}\n\[${WHITE}\]\$\[${NORMAL}\] '
+PS1='\n${BRIGHT}${MAGENTA}\u@\h:\w${NORMAL}\n\[${WHITE}\]\$\[${NORMAL}\] '
 
 export VISUAL='/usr/bin/vim'
 
