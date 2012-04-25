@@ -32,7 +32,7 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWSTASHSTATE=true
 
 # Fix long lines gobbling the prompt with \[ and \]
-PS1='\n${BRIGHT}${MAGENTA}\u@\h:\w${NORMAL}$(__git_ps1 " [%s]")\n\[${WHITE}\]»\[${NORMAL}\] '
+PS1='\n${BRIGHT}${MAGENTA}\u@\h:\w${NORMAL}$(__git_ps1 " [%s]")\n\[${WHITE}\]⌁\[${NORMAL}\] '
 
 export VISUAL='/usr/bin/vim'
 
