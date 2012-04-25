@@ -29,7 +29,6 @@ UNDERLINE=$(tput smul)
 # Make it so that the prompt knows when we're in a git repo
 source ~/.git-completion.bash
 export GIT_PS1_SHOWDIRTYSTATE=true
-export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWSTASHSTATE=true
 
 # Fix long lines gobbling the prompt with \[ and \]
