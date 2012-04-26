@@ -4,9 +4,10 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias ..='cd ..'
-alias l='ls -F'
-alias la='ls -FA'
-alias ll='ls -Fl'
+alias ls='ls --color=auto --group-directories-first -F'
+alias l='ls'
+alias la='ls -A'
+alias ll='ls -l'
 
 # http://stackoverflow.com/questions/4332478/read-the-current-text-color-in-a-xterm/4332530#4332530
 BLACK=$(tput setaf 0)
